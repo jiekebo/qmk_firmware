@@ -1,5 +1,5 @@
 # Processor frequency
-F_CPU = 8000000
+F_CPU = 16000000
 
 # Build Options
 #   change yes to no to disable
@@ -13,5 +13,6 @@ EXTRAKEY_ENABLE  = yes
 USB_HID_ENABLE   = yes
 BACKLIGHT_ENABLE = no
 CUSTOM_MATRIX    = yes
+VIA_ENABLE = yes
 
 SRC = matrix.c m0110.c

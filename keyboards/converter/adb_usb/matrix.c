@@ -35,7 +35,7 @@ Ported to QMK by Peter Roe <pete@13bit.me>
 #    define ADB_MOUSE_MAXACC 8
 #endif
 
-static bool is_iso_layout = false;
+static bool is_iso_layout = true;
 
 // matrix state buffer(1:on, 0:off)
 static matrix_row_t matrix[MATRIX_ROWS];
